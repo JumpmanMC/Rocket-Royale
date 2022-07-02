@@ -73,4 +73,4 @@ async def on_message(message):
         except:
           await message.channel.send('Error creating chat! Make sure player names are spelled correctly!')
           
-client.run(my_secret)
+client.run(TOKEN)
